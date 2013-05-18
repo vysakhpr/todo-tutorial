@@ -38,7 +38,7 @@ To install the bootstrap files into your system you need to run the following co
   bundle exec rails g bootstrap:install static
 ```
 ```
-   bundle exec rails g bootstrap:rails static
+  
 ```
 
 To install a default bootstrap template to rails we run the following command which the application.html.erb
