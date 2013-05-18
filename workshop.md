@@ -1,5 +1,4 @@
 
-
 Development of ToDo Application 
 ======
 
@@ -35,6 +34,8 @@ To work with bootstrap we require the bootrstrap gem to be placed in the Gemfile
 ```gem 'twitter-bootstrap-rails'```
 
 To install the bootstrap files into your system you need to run the following command in the terminal 
+...
+   bundle exec rails g bootstrap:install static
 
 ```
   bundle exec rails g bootstrap:rails static
@@ -43,7 +44,7 @@ To install the bootstrap files into your system you need to run the following co
 To install a default bootstrap template to rails we run the following command which the application.html.erb
 
 ```
-  bundle exec rails g bootstrap:layout fluid
+  bundle exec rails g bootstrap:layout application fluid
 ```
 
 Working with static pages
