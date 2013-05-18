@@ -35,7 +35,7 @@ To work with bootstrap we require the bootrstrap gem to be placed in the Gemfile
 To install the bootstrap files into your system you need to run the following command in the terminal
 
 ```
-  bundle exec rails g bootstrap:rails static
+  bundle exec rails g bootstrap:install static
 ```
 ```
    bundle exec rails g bootstrap:rails static
